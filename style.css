@@ -48,7 +48,6 @@ body{
     justify-content: center;
     align-items:top;
     width: 25%;
-    background-color: aqua;
   
 
   
@@ -83,7 +82,10 @@ font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 
-background-color: red;
+}
+.right-nav a{
+    text-decoration: none;
+    color: #000;
 }
 #home{
     border-bottom: solid 3px #7F22FE;
@@ -127,8 +129,8 @@ line-height: 20px;
 .feature1{
  background-color:#8E51FF;
 position: absolute;
-top: 50px;
-left: 50px;
+top: 40px;
+left: 40px;
 }
 
 .se1-right{
