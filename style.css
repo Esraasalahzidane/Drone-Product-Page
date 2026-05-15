@@ -328,6 +328,9 @@ color: oklch(0.551 0.027 264.364);
 line-height: 20px;
 
 }
+.r1c2 h4{
+color: #7008E7;
+}
 .r1c2 p{
 font-family: "Exo", sans-serif;
 font-size: 14px;
@@ -395,6 +398,7 @@ justify-content: start;
 
 .r1c2,.r2c2,.r3c2,.r4c2,.r5c2,.r6c2,.r7c2,.r8c2,.r9c2,.r10c2{
     z-index: 100;
+   
 }
 .table{
     position: relative;
@@ -403,12 +407,15 @@ justify-content: start;
 .cloud{
     width: 250px;
     height: 850px;
-    background-color:rgba(237, 233, 254, 0.6);
+    background-color:rgb(237, 233, 254);
     border-radius: 20px;
     position: absolute;
     top: 20px;
     left: 240px;
     z-index: 50;
+
+    
+    
 }
 
 .winner-img{
@@ -663,9 +670,7 @@ line-height: 29.25px;
     top: 40px;
 }
 .months{
-    position: relative;
-    left: 50px;
-    bottom: 10px;
+ justify-self: end;
 }
 #pro,.spm,.months{
     font-family: Exo, sans-serif;
