@@ -297,6 +297,7 @@ line-height: 10px;
     border: 2px solid #D1D5DC;
     border-radius: 20px;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 .the-row{
     display: flex;
@@ -304,6 +305,7 @@ line-height: 10px;
     width: 90%;
     margin: auto;
     text-align: center;
+
 
     
 }
@@ -359,7 +361,6 @@ font-size: 16px;
 font-weight: 400;
 color: rgb(0, 0, 0);
 
-   
 }
 .r6c3 span,.r6c4 span,.r6c5 span,.r8c3 span,.r8c5 span{
     color: #F54A00;
@@ -384,6 +385,7 @@ color:#7008E7;
  .r1c1,.r2c1,.r3c1,.r4c1,.r5c1,.r6c1,.r7c1,.r8c1,.r9c1,.r10c1{
 display: flex;
 justify-content: start;
+padding-right:90px ;
  }
 .rows{
     display: flex;
@@ -403,16 +405,18 @@ justify-content: start;
 .table{
     position: relative;
     z-index: 100;
+    background-color: white;
 }
 .cloud{
-    width: 250px;
+    width: 220px;
     height: 850px;
     background-color:rgb(237, 233, 254);
     border-radius: 20px;
     position: absolute;
     top: 20px;
-    left: 240px;
+    left: 310px;
     z-index: 50;
+    text-align: center;
 
     
     
